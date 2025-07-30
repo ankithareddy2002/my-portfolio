@@ -1,0 +1,227 @@
+/* ========== ROOT ========== */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* ========== NAVBAR ========== */
+.navbar {
+  background-color: #354f52;
+  padding: 1rem 2rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.nav-items a:hover {
+  color: #84a98c;
+}
+
+/* ========== SERVICE SECTION ========== */
+.service-section {
+  padding: 2rem;
+  background-color: #354f52;
+  text-align: center;
+}
+
+.service-title {
+  color: #ffffff;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.service-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background-color: #52796f;
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+}
+
+/* ========== EXPERIENCE SECTION ========== */
+.experience-container {
+  padding: 2rem;
+  background-color: #354f52;
+}
+
+.experience-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 700px;
+  margin: auto;
+}
+
+.experience-card {
+  padding: 1.5rem;
+  background: #84a98c;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+  color: #000000;
+}
+
+/* ========== PROJECT SECTION ========== */
+.project-container {
+  padding: 2rem;
+  background-color: #354f52;
+}
+
+.project-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.project-card {
+  background: #52796f;
+  color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+/* ========== CONTACT SECTION (Centered Form Below Heading) ========== */
+.contact-section {
+  background-color: #354f52;
+  padding: 4rem 1rem 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.contact-form-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.contact-form {
+  background: #ffffff;
+  max-width: 600px;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+}
+
+.contact-form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.contact-form label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #444;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.3);
+}
+
+.submit-btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 768px) {
+  .service-card,
+  .project-card {
+    width: 100%;
+  }
+
+  .nav-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-form {
+    padding: 1.5rem;
+  }
+}
+.resume-btn {
+  background-color: #1976d2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.resume-btn:hover {
+  background-color: #1565c0;
+}
