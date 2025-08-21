@@ -5,7 +5,7 @@ import Experience from './components/Experience'
 import Home from './components/Home'
 import Nav from './components/Nav'
 import Service from './components/Service'
-import Project from './components/project'
+import Project from './components/Project'
 import Contact from './components/Contact'
 import { Routes,Route } from 'react-router-dom'
 
